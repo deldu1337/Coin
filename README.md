@@ -20,7 +20,7 @@
  
  ![FirstFrame](https://user-images.githubusercontent.com/77719450/195063363-e1eab384-91fe-494a-835f-3a5c5d23b1ce.PNG)
  
- - 'ENTRANCE' 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
+ - **ENTRANCE** 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
  -----------------------
  #### SecondFrame.java
  
@@ -36,7 +36,7 @@
  ![ChooseRoom](https://user-images.githubusercontent.com/77719450/195063524-034b12c3-b36d-423d-bd9f-0012882260a8.PNG)
  
  - 차이를 둔 패밀리 룸과 스탠다드 룸 배경 이미지
- - OFFLINE 상태에서 'Back' 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
+ - OFFLINE 상태에서 **Back** 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
  - ONLINE 상태에서 'Back' 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동함과 동시에 사용 중인 방으로 표시
  - OFFLINE 상태에서 비밀번호 입력 후 '로그아웃' 버튼 클릭 시, "로그인이 필요합니다." 경고문 표시
  - ONLINE 상태에서 잘못된 비밀번호 입력 후 '로그아웃' 버튼 클릭 시, "비밀번호가 맞지 않습니다." 경고문 표시
