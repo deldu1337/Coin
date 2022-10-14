@@ -12,18 +12,19 @@
  - 사용 중인 방은 다른 색상으로 구분해주는 기능
  - 회원관리(회원정보 조회, 갱신, 수정, 병합, 삭제)가 가능한 관리자 모드 기능
  
+-----------------------
 ### PART 2. 프로그램 구성
  ![schema](https://user-images.githubusercontent.com/77719450/195053425-32e61ba7-056d-484e-816d-1ce7e020e2a9.png)
  
- 
+-----------------------
 ### PART 3. 화면 구성 및 세부 기능
- - FirstFrame.java
+ #### FirstFrame.java
  
  ![FirstFrame](https://user-images.githubusercontent.com/77719450/195063363-e1eab384-91fe-494a-835f-3a5c5d23b1ce.PNG)
  
  - 'ENTRANCE' 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
  -----------------------
- - SecondFrame.java
+ #### SecondFrame.java
  
  ![SecondFrame](https://user-images.githubusercontent.com/77719450/195063484-9b1ca027-3a1c-4b9e-a8af-8e92214cd541.PNG)
  
@@ -32,7 +33,7 @@
  - 사용 중인 방 버튼 클릭 시, 방 화면(ChooseRoom.java)으로 이동
  - 비상구 버튼 클릭 시, 관리자 로그인 화면(AdminLoginFrame.java)으로 이동
  -----------------------
- - ChooseRoom.java
+ #### ChooseRoom.java
  
  ![ChooseRoom](https://user-images.githubusercontent.com/77719450/195063524-034b12c3-b36d-423d-bd9f-0012882260a8.PNG)
  
@@ -46,7 +47,7 @@
  - OFFLINE 상태에서 '입장하기' 버튼 클릭 시, "로그인이 필요합니다." 경고문 표시
  - ONLINE 상태에서 '입장하기' 버튼 클릭 시, 세부 방 화면(RoomFrame.java)으로 이동
  -----------------------
- - LoginFrame.java
+ #### LoginFrame.java
  
  ![LoginFrame](https://user-images.githubusercontent.com/77719450/195063549-963ab7d4-13fa-4485-af21-89ef2f395064.PNG)
  
@@ -57,7 +58,7 @@
  - "로그인 성공" 메시지에서 'OK' 버튼 클릭 시 ONLINE 상태가 되고, 로그인 화면(LoginFrame.java) 제거
  - '회원가입' 버튼 클릭 시, 회원가입 화면(JoinFrame.java)으로 이동
  -----------------------
- - JoinFrame.java
+ #### JoinFrame.java
  
  ![JoinFrame](https://user-images.githubusercontent.com/77719450/195063577-816aa706-6b3d-4f50-81f5-cf5ea6a7d873.PNG)
 
@@ -71,7 +72,7 @@
  - 비밀번호와 비밀번호확인 입력 값이 다른 상태에서 '회원가입' 버튼 클릭 시, "비밀번호가 같지 않습니다." 경고문 표시
  - 올바른 값 입력 후 '회원가입' 버튼 클릭 시, 방 화면(ChooseRoom.java)으로 이동함과 동시에 로그인 화면(LoginFrame.java) 표시
  -----------------------
- - RoomFrame.java
+ #### RoomFrame.java
  
  ![RoomFrame](https://user-images.githubusercontent.com/77719450/195063608-87f82b9f-0375-46c0-a007-99541f684154.PNG)
 
@@ -89,7 +90,7 @@
  - 사용 중인 코인이 1 이상인 상태에서 '시작하기' 버튼 클릭 시, 사용 중인 코인 1씩 차감
  - 사용 중인 코인이 존재하는 상태에서 로그아웃 시, 사용 중인 코인 0으로 초기화
  -----------------------
- - ChargeFrame.java
+ #### ChargeFrame.java
  
  ![ChargeFrame](https://user-images.githubusercontent.com/77719450/195063628-829ab95e-9be1-4000-bebd-d6e1536e75ae.PNG)
 
@@ -99,7 +100,7 @@
  - n곡 버튼 클릭 시, 하단 빈 칸에 n 표시
  - 곡 수(n) 표시된 상태에서 '충전하기' 버튼 클릭 시, "충전이 완료 되었습니다." 메시지 표시
  -----------------------
- - AdminLoginFrame.java
+ #### AdminLoginFrame.java
  
  ![AdminLoginFrame](https://user-images.githubusercontent.com/77719450/195063647-2a0fd18a-91ac-4604-94e4-aedc2f1ee9d3.PNG)
 
@@ -111,7 +112,7 @@
  - 관리자가 존재하는 상태에서 '관리자가입' 버튼 클릭 시, "관리자가 존재합니다." 경고문 표시
  - 관리자가 존재하지 않은 상태에서 '관리자가입' 버튼 클릭 시, 관리자 가입 화면(AdminJoinFrame.java)으로 이동
  -----------------------
- - AdminJoinFrame.java
+ #### AdminJoinFrame.java
  
  ![AdminJoinFrame](https://user-images.githubusercontent.com/77719450/195063672-d74236e4-525f-42c1-bc43-d659614cc46c.PNG)
 
@@ -123,7 +124,7 @@
  - 비밀번호와 비밀번호확인 입력 값이 다른 상태에서 '관리자가입' 버튼 클릭 시, "비밀번호가 같지 않습니다." 경고문 표시
  - 올바른 값 입력 후 '관리자가입' 버튼 클릭 시, 관리자 로그인 화면(AdminLoginFrame.java)으로 이동
  -----------------------
- - AdminFrame.java
+ #### AdminFrame.java
  
  ![AdminFrame](https://user-images.githubusercontent.com/77719450/195063704-c5d1fb4f-308b-4aeb-af79-39fdf44e6aa0.PNG)
 
