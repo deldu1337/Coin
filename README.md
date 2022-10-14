@@ -144,3 +144,5 @@
 > Java version 11.0.12
 > 
 > MySQL version 8.0.26
+>
+> Eclipse IDE version 2020-06 (4.16.0)
