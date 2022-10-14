@@ -18,11 +18,13 @@
  
 ### PART 3. 화면 구성 및 세부 기능
  - FirstFrame.java
+ 
  ![FirstFrame](https://user-images.githubusercontent.com/77719450/195063363-e1eab384-91fe-494a-835f-3a5c5d23b1ce.PNG)
  
  - 'ENTRANCE' 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
  -----------------------
  - SecondFrame.java
+ 
  ![SecondFrame](https://user-images.githubusercontent.com/77719450/195063484-9b1ca027-3a1c-4b9e-a8af-8e92214cd541.PNG)
  
  - 사용 중인 방은 하늘 색으로 표시
@@ -31,7 +33,8 @@
  - 비상구 버튼 클릭 시, 관리자 로그인 화면(AdminLoginFrame.java)으로 이동
  -----------------------
  - ChooseRoom.java
-![ChooseRoom](https://user-images.githubusercontent.com/77719450/195063524-034b12c3-b36d-423d-bd9f-0012882260a8.PNG)
+ 
+ ![ChooseRoom](https://user-images.githubusercontent.com/77719450/195063524-034b12c3-b36d-423d-bd9f-0012882260a8.PNG)
  
  - 차이를 둔 패밀리 룸과 스탠다드 룸 배경 이미지
  - OFFLINE 상태에서 'Back' 버튼 클릭 시, 초기 방 선택 화면(SecondFrame.java)으로 이동
@@ -44,6 +47,7 @@
  - ONLINE 상태에서 '입장하기' 버튼 클릭 시, 세부 방 화면(RoomFrame.java)으로 이동
  -----------------------
  - LoginFrame.java
+ 
  ![LoginFrame](https://user-images.githubusercontent.com/77719450/195063549-963ab7d4-13fa-4485-af21-89ef2f395064.PNG)
  
  - 아이디를 입력하지 않고 '로그인' 버튼 클릭 시, "아이디를 입력해 주세요." 경고문 표시
@@ -54,6 +58,7 @@
  - '회원가입' 버튼 클릭 시, 회원가입 화면(JoinFrame.java)으로 이동
  -----------------------
  - JoinFrame.java
+ 
  ![JoinFrame](https://user-images.githubusercontent.com/77719450/195063577-816aa706-6b3d-4f50-81f5-cf5ea6a7d873.PNG)
 
  - 'Back' 버튼 클릭 시, 방 화면(ChooseRoom.java)으로 이동함과 동시에 로그인 화면(LoginFrame.java) 표시
@@ -67,6 +72,7 @@
  - 올바른 값 입력 후 '회원가입' 버튼 클릭 시, 방 화면(ChooseRoom.java)으로 이동함과 동시에 로그인 화면(LoginFrame.java) 표시
  -----------------------
  - RoomFrame.java
+ 
  ![RoomFrame](https://user-images.githubusercontent.com/77719450/195063608-87f82b9f-0375-46c0-a007-99541f684154.PNG)
 
  - 차이를 둔 패밀리 룸과 스탠다드 룸 배경 이미지
@@ -84,6 +90,7 @@
  - 사용 중인 코인이 존재하는 상태에서 로그아웃 시, 사용 중인 코인 0으로 초기화
  -----------------------
  - ChargeFrame.java
+ 
  ![ChargeFrame](https://user-images.githubusercontent.com/77719450/195063628-829ab95e-9be1-4000-bebd-d6e1536e75ae.PNG)
 
  - 회원 성명과 아이디 표시
@@ -93,6 +100,7 @@
  - 곡 수(n) 표시된 상태에서 '충전하기' 버튼 클릭 시, "충전이 완료 되었습니다." 메시지 표시
  -----------------------
  - AdminLoginFrame.java
+ 
  ![AdminLoginFrame](https://user-images.githubusercontent.com/77719450/195063647-2a0fd18a-91ac-4604-94e4-aedc2f1ee9d3.PNG)
 
  - 관리자는 오직 한 계정만 존재
@@ -104,6 +112,7 @@
  - 관리자가 존재하지 않은 상태에서 '관리자가입' 버튼 클릭 시, 관리자 가입 화면(AdminJoinFrame.java)으로 이동
  -----------------------
  - AdminJoinFrame.java
+ 
  ![AdminJoinFrame](https://user-images.githubusercontent.com/77719450/195063672-d74236e4-525f-42c1-bc43-d659614cc46c.PNG)
 
  - 'Back' 버튼 클릭 시, 관리자 로그인 화면(AdminLoginFrame.java)으로 이동
@@ -115,6 +124,7 @@
  - 올바른 값 입력 후 '관리자가입' 버튼 클릭 시, 관리자 로그인 화면(AdminLoginFrame.java)으로 이동
  -----------------------
  - AdminFrame.java
+ 
  ![AdminFrame](https://user-images.githubusercontent.com/77719450/195063704-c5d1fb4f-308b-4aeb-af79-39fdf44e6aa0.PNG)
 
  - '탈출' 버튼 클릭 시, 관리자 로그인 화면(AdminLoginFrame.java)으로 이동
