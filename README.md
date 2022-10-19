@@ -4,9 +4,9 @@
 -----------------------
 ## Index
 - [Description]
-- - [PART 1. 프로그램 제공 기능](https://github.com/deldu1337/Coin/blob/main/README.md#part-1-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%A0%9C%EA%B3%B5-%EA%B8%B0%EB%8A%A5)
-- - [PART 2. 프로그램 구성]
-- - [PART 3. 화면 구성 및 세부 기능]
+ -[PART 1. 프로그램 제공 기능](https://github.com/deldu1337/Coin/blob/main/README.md#part-1-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%A0%9C%EA%B3%B5-%EA%B8%B0%EB%8A%A5)
+ - [PART 2. 프로그램 구성]
+ - [PART 3. 화면 구성 및 세부 기능]
 - [Environment]
 ## Description
 
